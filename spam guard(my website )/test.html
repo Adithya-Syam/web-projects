@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpamGuard</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- Add Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/c9a477b534.js" crossorigin="anonymous"></script>
+    <style>body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .card {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="background1">
+
+        <div class="navbar">
+            <div class="left">
+                <ul>
+                    <img src="./imgs/logo.png" alt="logo" width="107px" height="21px" />
+                    <li class="navItem">About Us</li>
+                    <li class="navItem3">Features <i class="fa-solid fa-angle-down"></i>
+                        <ul class="dropdown">
+                            <li>Features</li>
+                            <li>Premium</li>
+                            <li>Phone Number Lookup</li>
+                        </ul>
+
+                    </li>
+                    <li class="navItem">Privacy</li>
+                    <li class="navItem">Help</li>
+                    <li class="navItem">For Business</li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="navItem2"><i class="fa-solid fa-user"></i> Sign in</li>
+                    <li class="downloadButton">Get SpamGuard</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="card">
+                <h2>Sign In</h2>
+                <form id="signin-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+
+
+
+
+
+
+
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
